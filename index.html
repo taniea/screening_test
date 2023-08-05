@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Screening</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 100px 300px 20px 300px;
+
+      height: 100%;
+      display: grid;
+    }
+
+    header {
+      background-color: #fff;
+      color: #333;
+      text-align: center;
+      color: #408000;
+      border: 2px solid transparent;
+      font-size: 26px;
+
+
+
+    }
+
+    form {
+      margin-top: 20px;
+    }
+
+    header:hover {
+      border-color: red;
+    }
+
+
+    .shipping_p:hover {
+
+      cursor: pointer;
+    }
+
+
+    .container {
+      display: flex;
+      /* align-items: center;
+      justify-content: center; */
+      flex: 1;
+
+    }
+
+
+    .form-section1:hover,
+    .form-section2:hover,
+    .form-section3:hover,
+    .form-section4:hover {
+      border-color: yellow
+    }
+
+    .form-section1 {
+      margin-bottom: 20px;
+      border: 1px solid #bfbfbf;
+      border-radius: 5px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      flex: 2
+    }
+
+    .form-section2 {
+      padding: 10px;
+      border: 1px solid #bfbfbf;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      display: flex;
+      justify-content: space-between;
+      flex: 4
+    }
+
+    .form-section3 {
+      border: 1px solid #bfbfbf;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      flex: 2
+    }
+
+    .left-article {
+      display: flex;
+    }
+
+    .form-section4 {
+
+      border-radius: 5px;
+      margin-bottom: 20px;
+      padding: 10px;
+      display: flex;
+      justify-content: space-between;
+      flex: 2;
+    }
+
+    h3 {
+      margin-top: 0;
+    }
+
+    .form-label {
+      font-weight: bold;
+      display: block;
+    }
+
+    .form-control {
+      width: 100%;
+      margin-bottom: 10px;
+      box-sizing: border-box;
+    }
+
+    .submit-btn {
+      background-color: #006600;
+      color: #fff;
+      padding: 10px 20px;
+      border: 2px solid transparent;
+      cursor: pointer;
+      width: 100%;
+    }
+
+    .submit-btn:hover {
+      border-color: #00e600;
+    }
+
+    input[type="radio"] {
+      margin-right: 20px;
+    }
+
+    input[type="radio"]:hover {
+      cursor: pointer;
+    }
+
+    .shipping_p {
+      color: #006600;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    Bundle & Save
+  </header>
+
+
+  <div class="container">
+    <form>
+
+      <div class="form-section1">
+        <article class="left-article">
+          <input type="radio" id="pair1">
+          <div class="name-price_div">
+            <label>1 Pair</label>
+            <p>DKK 195.00</p>
+          </div>
+        </article>
+        <article class="right-article">
+          <p>
+            50% OFF
+          </p>
+        </article>
+
+      </div>
+
+
+
+
+
+      <div class="form-section2">
+        <article class="left-article">
+          <input type="radio" id="pair2">
+          <div class="name-price_div">
+            <label>2 Pair</label>
+            <p>DKK 345.00</p>
+          </div>
+        </article>
+        <article class="right-article">
+          <p>
+            40% OFF
+          </p>
+        </article>
+
+      </div>
+
+
+      <div class="form-section3">
+        <article class="left-article">
+          <input type="radio" id="pair3">
+          <div class="name-price_div">
+            <label>3 Pair</label>
+            <p>DKK 528.00</p>
+          </div>
+        </article>
+        <article class="right-article">
+          <p>
+            60% OFF
+          </p>
+        </article>
+
+      </div>
+
+      <div class="form-section4">
+
+        <p class="shipping_p">Free 2 Day Shipping</p>
+        <p class="total_p">Total : DKK 360.00</p>
+
+      </div>
+
+
+      <div class="form-section">
+        <button type="submit" class="submit-btn">+ Add to Cart</button>
+      </div>
+    </form>
+  </div>
+</body>
+
+</html>
